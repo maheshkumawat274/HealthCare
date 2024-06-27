@@ -1,0 +1,19 @@
+.do-container::-webkit-scrollbar {
+  display: none;
+}
+.do-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  max-width: 100%; 
+}
+
+.do-container .row {
+  flex: 0 0 auto; 
+}
+
+.do-container .col-lg-3 {
+  flex: 0 0 calc(100% / 8); 
+  max-width: calc(100% / 8);
+}
+

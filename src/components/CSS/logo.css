@@ -1,0 +1,18 @@
+.logo h1{
+  background: linear-gradient(270deg, #b42b77 0%, #FFFF00 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 800;
+  font-size: 35px;
+}
+@media (max-width:560px) {
+  .logo h1{
+    font-size: 28px;
+  }
+}
+@media  (min-width:320px) and (max-width:560px) {
+  .logo h1{
+    font-size: 24px;
+  }
+}

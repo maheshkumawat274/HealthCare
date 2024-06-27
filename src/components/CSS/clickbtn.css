@@ -1,0 +1,12 @@
+.doctor-btn{
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.doctor-btn:hover{
+  background-color: rgb(19, 19, 190);
+  color: white;
+  transition: .5s;
+}

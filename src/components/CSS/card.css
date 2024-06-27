@@ -1,0 +1,11 @@
+.card{
+  border: none;
+  
+}
+.card-img{
+  border: 10px solid white;
+  border-radius: 0px;
+}
+.card-img img{
+  border-radius: 10px;
+}
